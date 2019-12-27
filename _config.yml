@@ -1,0 +1,16 @@
+# Site settings
+title: Church of Foxx
+email: frozenfoxx@churchoffoxx.net
+description: > # this means to ignore newlines until "baseurl:"
+  A fox in a box of bricks and blocks.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://churchoffoxx.net" # the base hostname & protocol for your site
+twitter_username: frozenfoxx
+github_username:  frozenfoxx
+wiki: "https://github.com/frozenfoxx/frozenfoxx.github.io/wiki"
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+   - jekyll-paginate
+paginate: 10
