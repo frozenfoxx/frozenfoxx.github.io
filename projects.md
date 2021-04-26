@@ -25,6 +25,7 @@ permalink: /projects/
 * [err-cracksh](https://github.com/frozenfoxx/err-cracksh)
 * [err-healthz](https://github.com/frozenfoxx/err-healthz)
 * [errbot-formula](https://github.com/frozenfoxx/errbot-formula)
+* [haz](https://github.com/frozenfoxx/haz)
 * [puppet-hubot](https://forge.puppet.com/frozenfoxx/hubot)
 * [puppet-vundle](https://forge.puppet.com/frozenfoxx/vundle)
 * [grinder](https://github.com/frozenfoxx/grinder)
