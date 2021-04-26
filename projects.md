@@ -19,6 +19,7 @@ permalink: /projects/
 
 * [arganium](https://github.com/frozenfoxx/arganium)
 * [docker-crawl](https://github.com/frozenfoxx/docker-crawl)
+* [docker-enigma-bbs](https://github.com/frozenfoxx/docker-enigma-bbs)
 * [docker-vuln-bind](https://github.com/frozenfoxx/docker-vuln-bind)
 * [docker-schemaverse](https://github.com/frozenfoxx/docker-schemaverse)
 * [docker-zandronum](https://github.com/frozenfoxx/docker-zandronum)
@@ -33,5 +34,6 @@ permalink: /projects/
 * [rpi-minecraft-server](https://github.com/frozenfoxx/rpi-minecraft-server)
 * [schemabridge](https://github.com/frozenfoxx/schemabridge)
 * [schemaverse_dojo](https://github.com/frozenfoxx/schemaverse_dojo)
+* [stream_repeater](https://github.com/frozenfoxx/stream_repeater)
 * [terraform-churchoffoxx](https://github.com/frozenfoxx/terraform-churchoffoxx)
 * [terraform-crawl-linode](https://github.com/frozenfoxx/terraform-crawl-linode)
