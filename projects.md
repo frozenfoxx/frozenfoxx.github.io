@@ -23,6 +23,7 @@ permalink: /projects/
 * [docker-vuln-bind](https://github.com/frozenfoxx/docker-vuln-bind)
 * [docker-schemaverse](https://github.com/frozenfoxx/docker-schemaverse)
 * [docker-zandronum](https://github.com/frozenfoxx/docker-zandronum)
+* [docker-zandronum-server](https://github.com/frozenfoxx/docker-zandronum-server)
 * [err-cracksh](https://github.com/frozenfoxx/err-cracksh)
 * [err-healthz](https://github.com/frozenfoxx/err-healthz)
 * [errbot-formula](https://github.com/frozenfoxx/errbot-formula)
