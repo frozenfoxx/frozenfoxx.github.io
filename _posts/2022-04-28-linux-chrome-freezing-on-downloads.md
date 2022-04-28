@@ -1,6 +1,6 @@
 ---
 layout: post
-title: linux-chrome-freezing-on-downloads Linux Chrome Freezing on Downloads
+title: Linux Chrome Freezing on Downloads
 author: FrozenFOXX
 tags:
  - linux
