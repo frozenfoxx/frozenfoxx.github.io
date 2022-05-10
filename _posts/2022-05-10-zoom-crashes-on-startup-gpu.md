@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Zoom crashes on Startup (GPU)
+title: Zoom Crashes on Startup (GPU)
 author: FrozenFOXX
 tags:
  - linux
