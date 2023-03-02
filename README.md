@@ -1,6 +1,6 @@
 # Church of Foxx
 
-A blog and wiki run by FrozenFOXX.
+A blog run by FrozenFOXX.
 
 # Requirements
 * Ruby 2.3+
