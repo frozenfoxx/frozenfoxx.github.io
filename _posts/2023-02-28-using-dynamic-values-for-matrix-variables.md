@@ -11,7 +11,8 @@ tags:
 There are many times when you wish to using a dynamic value such as a variable or a secret as an input for a later job, typically as part of a [Matrix Variable](https://docs.github.com/en/actions/using-jobs/using-a-matrix-for-your-jobs). However, one constraint of a matrix variable is that its values must be *static* and therefore GitHub Actions will complain if you try to have it use a dynamic lookup or the direct result of a lookup.
 
 However, there's a way around this using [job output](https://docs.github.com/en/actions/using-jobs/defining-outputs-for-jobs). The catch is, it can't be just any job output but must be JSON explicitly. Fortunately, [fromJSON()](https://docs.github.com/en/actions/learn-github-actions/expressions#fromjson) is now supported and can let work with this limitation.
-```Shell
+
+```
 ---
 name: Dynamic Value Conversion for Matrix
 
