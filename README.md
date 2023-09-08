@@ -1,4 +1,4 @@
-# Church of Foxx
+# Cult of Foxx
 
 A blog run by FrozenFOXX.
 
