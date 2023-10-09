@@ -13,13 +13,14 @@ Creating a cloud-init template on Proxmox isn't a complicated process but can be
 
 ```shell
 cd /opt/images
-wget https://cloud-images.ubuntu.com/jammy/current/jammy-server-cloudimg-amd64.img
-virt-customize -a jammy-server-cloudimg-amd64.img --install qemu-guest-agent
-qm create 9000 --memory 2048 --name ubuntu-2204 --net0 virtio,bridge=vmbr0 --scsihw virtio-scsi-pci
-qm set 9000 --scsi0 pool:0,import-from=/opt/images/jammy-server-cloudimg-amd64.img
-qm set 9000 --ide2 pool:cloudinit
+wget https://cloud-images.ubuntu.com/lunar/current/lunar-server-cloudimg-amd64.img
+virt-customize -a lunar-server-cloudimg-amd64.img --install qemu-guest-agent
+qm create 9000 --memory 2048 --name ubuntu-2304 --bios ovmf --net0 virtio,bridge=vmbr0 --scsihw virtio-scsi-pci
+qm set 9000 --scsi0 pool:0,import-from=/opt/images/lunar-server-cloudimg-amd64.img
+qm set 9000 --ide0 pool:cloudinit
 qm set 9000 --boot order=scsi0
 qm set 9000 --serial0 socket --vga serial0
+qm set 9000 -hotplug disk,network,usb
 qm template 9000
 ```
 
