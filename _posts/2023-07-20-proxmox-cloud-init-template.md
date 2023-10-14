@@ -20,7 +20,6 @@ qm set 9000 --scsi0 pool:0,import-from=/opt/images/lunar-server-cloudimg-amd64.i
 qm set 9000 --ide0 pool:cloudinit
 qm set 9000 --boot order=scsi0
 qm set 9000 --serial0 socket --vga serial0
-qm set 9000 -hotplug disk,network,usb
 qm template 9000
 ```
 
