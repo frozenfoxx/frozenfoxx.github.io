@@ -15,7 +15,7 @@ Creating a cloud-init template on Proxmox isn't a complicated process but can be
 cd /opt/images
 https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-amd64.img
 virt-customize -a noble-server-cloudimg-amd64.img --install qemu-guest-agent
-qm create 9000 --memory 2048 --name ubuntu-2304 --bios ovmf --net0 virtio,bridge=vmbr0 --scsihw virtio-scsi-pci
+qm create 9000 --memory 2048 --name ubuntu-2404 --bios ovmf --net0 virtio,bridge=vmbr0 --scsihw virtio-scsi-pci
 qm set 9000 --scsi0 pool:0,import-from=/opt/images/noble-server-cloudimg-amd64.img
 qm set 9000 --ide2 pool:cloudinit
 qm set 9000 --boot order=scsi0
