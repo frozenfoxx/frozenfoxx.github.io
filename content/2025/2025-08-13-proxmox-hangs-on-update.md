@@ -5,7 +5,6 @@ tags:
   - linux
   - troubleshooting
 ---
-
 I use [Proxmox](https://proxmox.com) for my clustering. Unfortunately when upgrading it with a standard `apt upgrade` recently it would hang when it would get to `pve-ha-manager`. Nothing I did would resolve this, and it would hang the system.
 
 To fix this, I did the following.
