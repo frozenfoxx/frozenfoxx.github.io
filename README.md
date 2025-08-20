@@ -7,8 +7,16 @@
 - [npm](https://www.npmjs.com/)
 - [nvm](https://github.com/nvm-sh/nvm)
 
-# Configuration
-- After cloning this repository, initialize all NodeJS packages with running the following:
+# Set Up
+- Clone this repository and add a remote for upstream updates
+
+```shell
+git clone git@github.com:frozenfoxx/frozenfoxx.github.io.git
+cd frozenfoxx.github.io
+git remote add upstream https://github.com/jackyzha0/quartz.git
+```
+
+- Initialize all NodeJS packages with running the following:
 
 ```shell
 npm i
