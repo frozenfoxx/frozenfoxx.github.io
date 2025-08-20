@@ -24,6 +24,7 @@ npx quartz create
 ```
 
 # Usage
+- Author content into the `content` directory
 - Run `nvm use` to ensure you're using the correct Node version
 - To sync updates to the repository, run `npx quartz sync`
 
